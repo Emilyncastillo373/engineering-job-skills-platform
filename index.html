@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Ingeniería de Sistemas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header class="encabezado">
+        <div class="barra-navegacion">
+            <img src="images/logo.png" alt="Logo Habilits" class="logo">
+            <div class="select-wrapper">
+                <select class="select-carrera">
+                  <option selected disabled>Ingeniería</option>
+                  <option>Ingeniería de Industrial</option>
+                  <option>Ingeniería de Sistemas</option>
+                  <option>Ingeniería Civil</option>
+                  <option>Ingeniería Minas</option>
+                  <option>Ingeniería Mecánica</option>
+                  <option>Ingeniería Ambiental</option>
+                </select>
+              </div>              
+        </div>
+    </header>
+
+    <!-- Botón de exportar -->
+    <div class="franja-blanca">
+        <h1 class="titulo-principal">INGENIERÍA DE SISTEMAS</h1>
+        <div class="contenedor-boton">
+          <button class="btn-exportar">EXPORTAR</button>
+        </div>
+      </div>
+
+    <!-- Dashboard -->
+    <main class="dashboard">
+        <section class="fila-contenedor">
+    <div class="columna-izquierda">
+        <div class="fila-superior">
+            <div class="grafico-card">
+                <h3>Habilidades Técnicas</h3>
+                <img src="images/habilidades-tecnicas.png" alt="Gráfico Técnicas">
+            </div>
+            <div class="grafico-card">
+                <h3>Habilidades Blandas</h3>
+                <img src="images/habilidades-blandas.png" alt="Gráfico Blandas">
+            </div>
+        </div>
+        <div class="grafico-linea">
+            <img src="images/demanda-anios.png" alt="Gráfico Línea">
+        </div>
+    </div>
+
+    <div class="top-card">
+        <h3>Más demandadas por empresas</h3>
+
+        <div class="seccion-tabla">
+            <h4>Top 5 Soft Skills</h4>
+            <table class="tabla-estilo">
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Habilidad Blanda</th>
+                        <th>% de Ofertas que la mencionan</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>1</td><td>Pensamiento Crítico</td><td>76%</td></tr>
+                    <tr><td>2</td><td>Comunicación Efectiva</td><td>69%</td></tr>
+                    <tr><td>3</td><td>Trabajo en Equipo</td><td>64%</td></tr>
+                    <tr><td>4</td><td>Adaptabilidad</td><td>58%</td></tr>
+                    <tr><td>5</td><td>Gestión del Tiempo</td><td>51%</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="seccion-tabla">
+            <h4>Top 5 Herramientas Tech</h4>
+            <table class="tabla-estilo">
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Herramienta / Software</th>
+                        <th>% de Ofertas que la mencionan</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>1</td><td>Power BI</td><td>68%</td></tr>
+                    <tr><td>2</td><td>Jira</td><td>61%</td></tr>
+                    <tr><td>3</td><td>Git / GitHub</td><td>59%</td></tr>
+                    <tr><td>4</td><td>AutoCAD</td><td>54%</td></tr>
+                    <tr><td>5</td><td>Figma</td><td>48%</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+    </main>       
+</body>
+</html>
